@@ -1,0 +1,80 @@
+.products {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+header {
+    color: white;
+    font-size: 30px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.products div {
+    padding: 3% 2%;
+    text-align: center;
+}
+
+.products div img {
+    width: 65%;
+}
+
+.container button {
+    margin-top: 5%;
+    background-color: #0a0a57;
+    color: white;
+    border: none;
+}
+
+.container button:hover {
+    background-color: #4747b3;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    padding: 15px;
+    width: 140px;
+    font-size: 14px;
+    border-radius: 5%;
+    background-color: #0a0a57;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+header {
+    background-color: #0a0a57;
+    text-align: center;
+    padding: 20px;
+}
+
+header button {
+    margin: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: normal;
+}
+
+header button:hover {
+    color: #0a0a57;
+    color: white;
+    background-color: #0a0a57;
+    font-weight: bold;
+}
