@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Products({ addToCart }) {
+function Products({ addProductToCart }) {
   const [products] = useState([
     {
       id: 1,
@@ -35,7 +35,9 @@ function Products({ addToCart }) {
             <h3>{product.name}</h3>
             <h4>{product.cost}</h4>
             <img src={product.image} alt={product.name} />
-            <button onClick={() => addToCart(product)}>Add to Cart</button>
+            <button onClick={() => addProductToCart(product)}>
+              Add to Cart
+            </button>
           </div>
         ))}
       </div>

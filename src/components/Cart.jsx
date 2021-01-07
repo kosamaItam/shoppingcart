@@ -5,7 +5,7 @@ function Cart({ cart, removeFromCart, emptyCart }) {
     <div>
       <h1 className="heading">Cart</h1>
 
-      <button onClick={() => emptyCart()}>Clear Cart</button>
+      <button onClick={() => emptyCart()}>Empty Cart</button>
 
       <div className="products">
         {cart.map((product, index) => (

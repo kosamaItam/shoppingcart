@@ -10,7 +10,7 @@ function Shopping() {
 
   const [page, setPage] = useState(PAGE_PRODUCTS);
 
-  const addToCart = product => {
+  const addProductToCart = product => {
     console.log('we are in add To Cart');
     setCart([...cart, { ...product }]);
   };
@@ -36,7 +36,9 @@ function Shopping() {
         </button>
         <button onClick={() => navigateTo(PAGE_PRODUCTS)}>View Products</button>
       </header>
-      {page === PAGE_PRODUCTS && <Products addToCart={addToCart} />}
+      {page === PAGE_PRODUCTS && (
+        <Products addProductToCart={addProductToCart} />
+      )}
       {page === PAGE_CART && (
         <Cart
           cart={cart}
