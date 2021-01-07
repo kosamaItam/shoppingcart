@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function Products({ addToCart }) {
-  const [products, setProducts] = useState([
+  const [products] = useState([
     {
       id: 1,
       name: 'T Shirt',

@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function Cart({ cart, removeFromCart, emptyCart }) {
-  const [isEmpty, setIsEmpty] = useState(true);
-
   return (
     <div>
       <h1 className="heading">Cart</h1>

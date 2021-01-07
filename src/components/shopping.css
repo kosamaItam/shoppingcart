@@ -27,7 +27,7 @@ header {
 
 .container button {
     margin-top: 5%;
-    background-color: #0a0a57;
+    background-color: #6e0909;
     color: white;
     border: none;
 }
@@ -45,7 +45,7 @@ button {
     width: 140px;
     font-size: 14px;
     border-radius: 5%;
-    background-color: #0a0a57;
+    background-color: #6e0909;
     color: white;
     border: none;
 }
@@ -59,7 +59,7 @@ button:focus {
 }
 
 header {
-    background-color: #0a0a57;
+    background-color: #6e0909;
     text-align: center;
     padding: 20px;
 }
@@ -73,8 +73,8 @@ header button {
 }
 
 header button:hover {
-    color: #0a0a57;
+    color: #6e0909;
     color: white;
-    background-color: #0a0a57;
+    background-color: #6e0909;
     font-weight: bold;
 }
